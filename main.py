@@ -150,6 +150,7 @@ class iOptimizer:
             status = "✅ Ativo" if item['enabled'] else "❌ Desabilitado"
             print(f"{Fore.WHITE}{i}. {item['name']} - {status}")
         
+        # lógica para habilitar/desabilitar
         pass
         
     
